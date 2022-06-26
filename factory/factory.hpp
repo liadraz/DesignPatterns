@@ -21,6 +21,12 @@
 
 //----------------------------------------------------------------------------//
 //	Factory Declaration
+//  DESCRIPTION     Creator class which creates templated classes by the user.
+//                  The Factory has two main methods:
+//                  1. Add, which adds a new type of class that can be created on run-time.
+//                  The factory class holds an Hash-Table of 'Create' functions, each relates to a different class type.
+//                  2. Create, the factory method which creates an instance of a class determined by a key.
+//
 //----------------------------------------------------------------------------//
 template <typename Base, typename Key, typename Args>
 class Factory
