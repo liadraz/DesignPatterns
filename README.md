@@ -5,7 +5,7 @@ Catalog of design-patterns :
 - thread-pool
 
 
-Further information can be found in each DP class API, see `./dp.hpp`
+Further information can be found in each DP class API, see `./dp_name/dp.hpp`
 
 > All code is written in C++ language
 
