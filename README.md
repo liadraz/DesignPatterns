@@ -1,12 +1,11 @@
 # DesignPatterns
-Catalog of design-patterns implementations, written in C++.
+Catalog of design-patterns :
 - singleton
 - factory method
 - thread-pool
 
 
-Further information can be found in each DP class API. <br>
-see `./dp.hpp`
+Further information can be found in each DP class API, see `./dp.hpp`
 
 > All code is written in C++ language
 
